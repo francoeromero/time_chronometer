@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./img/background.jpg)no-repeat center center/cover;
+}
+.contenedor-principal{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 5px solid rgb(180, 42, 18);
+    border-radius: 50px;
+}
+.contenedor-botones{
+    padding: 20px;
+}
+#cronometro{
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+.boton{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+    background-color: #08e008;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+    background-color: #ffdc00;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#boton-reiniciar{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
